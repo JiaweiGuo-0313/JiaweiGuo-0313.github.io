@@ -1,11 +1,17 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+I am a 4th-year Ph.D. student from UC Davis in Chemical Engineering, supervised by [Dr. Ambarish Kulkarni](https://scholar.google.com/citations?user=3_GjmYAAAAAJ&hl=en). My research primarily focuses on combining data science techniques and quantum simulations to accelerate the design, discovery, and development of future catalysts. The first half of my PhD mainly focused on understanding the role of zeolites in heterogeneous catalysis and utilizing ML methods to overcome the long-standing barriers of exploring the vast zeolite materials space. Here is a link to one of my recent publications, where I trained a reactive machine learning potential (MLP) as a much cheaper and faster alternative relative to DFT-based methods with negligible accuracy loss: https://pubs.acs.org/doi/full/10.1021/acscatal.3c05275. The model is transferable across all possible active sites with a topology and across all existing topologies. Such large-scale screening study is made possible because of our recent development of an open-source Python package centralizing workflow design for computational zeolite studies (MAZE).
+ 
+Since early 2022, I started exploring molecular catalyst systems and metal surfaces for electro-catalytic CO2 capture and reduction as part of the multi-campus collaborative projects for the Reactive CO2 Capture (RCC) Center(https://chemenergy.ucdavis.edu/students). One of my current projects, in collaboration with Dr. Gabriel (U. Calgary), is related to screening hundreds of frustrated Lewis pairs in carboranes with implicit solvation, as explicit modeling of the solvent effect through AIMD is unpractical for screening studies. Encouraged by my zeolite work, I am working on developing an MLP modeling the electric double layer (EDL) formed at metal/electrolyte interfaces with explicit solvation and varying cation concentrations. This work is supported by an internship at Lawrence Livermore National Lab (end in 07/2024).
+
+
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
